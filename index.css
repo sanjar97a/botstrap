@@ -1,0 +1,7 @@
+.carousel-item{
+    height: 500px;
+    object-fit: cover;
+}
+body{
+    min-height: 500vh;
+}

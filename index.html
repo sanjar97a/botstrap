@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/bmw.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cq5dam.resized.img.1680.large.time1627481217507.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cq5dam.resized.img.1680.large.time1634820930915.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <h1 class="text-center text-success my-4 ">Bootstrap</h1>
+      <!--col lg = for desctop  -->
+      <!--col md = for planshet  -->
+      <!--col sm = for mobile  -->
+      <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-5 col-md-12 col sm-12 ">
+                <h3 class="bg-info p-5">1.</h3>
+            </div>
+            <div class="col-lg-3 col-md-6 col sm-12">
+                <h3 class="bg-warning p-5">2.</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 col sm-12">
+            <h3 class="bg-danger p-5">3.</h3>
+        </div>
+        </div>
+      </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h1 class="display-3">Web Developer </h1>
+                    <p class="lead py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat delectus aperiam quasi obcaecati possimus iste vero, ducimus repellendus quod unde tempora ipsa consequatur consectetur ipsam vel similique excepturi, maxime atque.</p>
+                    <button class="btn btn-primary mb-3">Learn more</button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img class="img-fluid " src="./img/cq5dam.resized.img.1680.large.time1634820930915.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h2 class="text-center text-success">Sing Up</h2>
+                    <p class="mt-3">Username</p>
+                    <input class="form-control" placeholder=" Username..." type="text" name="" id="">
+                    <p class="mt-3">Password</p>
+                    <input class="form-control" placeholder=" Password..." type="text" name="" id="">
+                    <button class="btn btn-success mt-3 w-100">Sign Up</button>
+                    
+                </div>
+                <div class="col-lg-8  col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./img/bmw.jpg" alt="">
+                </div>
+                <footer class="mt-5 bg-dark text-light py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <h1>Brand</h1>
+                            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, cum.</p>
+                        </div>
+                        <div class="col-3 text-center">
+                            <p>Home</p>
+                            <p>Abaut</p>
+                            <p>BLog</p>
+                            <p>Contact Us</p>
+
+
+                        </div>
+                        <div class="col-3">
+                            <h3>Location</h3>
+                            <p>Namangan city, Chorsu street</p>
+                            <P>nimadir@gmail.com</P>
+                            <p>+998971234567</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+            </div>
+        </div>
+
+
+
+
+    <script src="./bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
